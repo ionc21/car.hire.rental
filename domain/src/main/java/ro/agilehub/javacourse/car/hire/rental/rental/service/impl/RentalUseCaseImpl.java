@@ -13,7 +13,7 @@ import java.util.NoSuchElementException;
 
 @Component
 @RequiredArgsConstructor
-public class RentalUseCaseImpl implements RentalUseCase {
+class RentalUseCaseImpl implements RentalUseCase {
     private final UserPort userPort;
     private final CarPort carPort;
     private final RentalPort rentalPort;

@@ -4,7 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages = "ro.agilehub.javacourse.car.hire.rental")
+@ComponentScan(basePackages = "{ro.agilehub.javacourse.car.hire.rental, " +
+        "ro.agilehub.javacourse.car.hire.rental.client.core}")
 @SpringBootApplication
 public class CarHireRentalApplication {
 
